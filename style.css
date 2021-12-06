@@ -4,21 +4,105 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: #0eacc6;
+.showcase-items {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 30px;
+    padding: 60px;
+    background-color: #111724;
 }
 
-body{
-    background-color: #111724;
-    padding: 50px;
-    margin-top: 15%;
+
+.item-container {
     display: flex;
-    justify-content: center ;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgb(247,206,157);
+    background: linear-gradient(90deg, rgba(247,206,157,0.6811099439775911) 0%, rgba(17,23,36,1) 100%); 
+    margin: 20px;
+    padding: 60px;
+    height: 450px;
+    width: 300px;
 }
+
+#main-logo {
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#class-image {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.classmate-name {
+    color: #f4a950;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+
+}
+
+.motto {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 26px;
+    margin: 10px 0px;
+    color: #dad5c0;
+    text-align: center
+}
+
 
 .btn{
-  position: absolute;
-    top:60%;
+    margin-top: 30%;
+    display: flex;
+    justify-content:center;
+ 
+}
+.btn1{
+    padding:30px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.title {
+    margin-top: 30px;
+    padding: 0px 400px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.header-main {
+    display: flex;
+    justify-content: center;
+    Color: #dad5c0;
+    min-width: 700px;
+    border-radius: 100px;
+    margin-top: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 30px;
+    margin: auto;
+    background: rgb(17,23,36);
+    background: radial-gradient(circle, rgba(17,23,36,1) 62%, rgba(247,206,157,0.6811099439775911) 100%);
     display: flex;
     justify-content: center;
    
@@ -28,11 +112,8 @@ button{
     height: 50px;
     border-radius: 50px;
     font-size: 20px;
-    font-weight: bold;
-    color: #5267dd;
-    text-transform: uppercase;
     
-}
-button:hover{
-    box-shadow: 0 5px 30px #ccc30e;
+    background: #111724;
+    color:#DBD6C1;
+    background: rgba(0, 0, 0, 0.5);
 }
