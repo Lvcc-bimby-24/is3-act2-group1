@@ -1,0 +1,89 @@
+
+.Image img{
+    padding: 75px;
+    margin-left: 8px;
+    width: 15%;
+    height: 200px;
+    border-radius: 50%;   
+}
+/*.Image1 img{
+    padding: 75px;
+    margin-left: 5%;
+    margin-top: 29px;
+    position: absolute;
+    left:20%;
+    top:5%;
+    width: 150px;
+    height: 160px;
+    border-radius: 60%;  
+}
+.Image2 img{
+    padding: 75px;
+    margin-left:20%;
+    margin-top: 30px;
+    position: absolute;
+    left:20%;
+    top:5%;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+.Image3 img{
+    padding: 75px;
+    margin-left:35%;
+    margin-top: 30px;
+    position: absolute;
+    left:20%;
+    top:5%;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+
+.Image4 img{
+    padding: 75px;
+    margin-left:50%;
+    margin-top: 30px;
+    position: absolute;
+    left:20%;
+    top:5%;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+
+.Image5 img{
+    padding: 20px;
+    margin-left:50%;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    right: 72.5% ;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+
+.Image6 img{
+    padding: 20px;
+    margin-left:50%;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    right: 58% ;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+.Image7 img{
+    padding: 20px;
+    margin-left:50%;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    right: 42% ;
+    width: 170px;
+    height: 160px;
+    border-radius: 20%;  
+}
+
